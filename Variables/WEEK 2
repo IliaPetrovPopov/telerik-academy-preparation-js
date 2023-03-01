@@ -1,4 +1,5 @@
-Learning:
+#Learning:
+
 -> Recall the primitive data types and describe them.  
 -> Understanding what a variable is and what its usage is.  
 -> Learning to write variables that follow the good practices for naming.  
@@ -7,3 +8,11 @@ Learning:
 -> Understanding what arithmetic operators are and what we can do with them.  
 -> Understanding what parsing is and why it is useful.  
 -> Writing code that parses input data into another type. 
+-> How computing works, basic data types.  
+-> Declaring a variable, naming a variable, good practices.  
+-> Numbers, strings, booleans, undefined, null. 
+-> Integer vs floating point, strings, characters, type safety.
+-> Operators overview, types of operators.  
+-> Arithmetic operators, multiply, division, remainder, increment and decrement.  
+-> Assignment operator, assignment shorthand.  
+-> Parsing data. 
