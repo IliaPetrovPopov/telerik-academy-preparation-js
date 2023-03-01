@@ -1,1 +1,9 @@
-
+Learning:
+-> Recall the primitive data types and describe them.  
+-> Understanding what a variable is and what its usage is.  
+-> Learning to write variables that follow the good practices for naming.  
+-> Writing code that swaps the value of two variables.  
+-> When given code, being able to determine if they follow the best practices for variable naming.  
+-> Understanding what arithmetic operators are and what we can do with them.  
+-> Understanding what parsing is and why it is useful.  
+-> Writing code that parses input data into another type. 
