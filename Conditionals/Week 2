@@ -1,5 +1,4 @@
 
-
 Learning objectives:
 -> Recall the different types of operators.  
 -> Explain how equality operators work and their usage.  
@@ -10,4 +9,5 @@ Learning objectives:
 -> Explain the break keyword in the context of switch statements.  
 -> When given code that contains conditional statements,
   being able to determine if I should use if or switch.  
+
 
