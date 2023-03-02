@@ -1,0 +1,13 @@
+
+
+Learning objectives:
+-> Recall the different types of operators.  
+-> Explain how equality operators work and their usage.  
+-> Write code that compares the value of two variables and logs the result.  
+-> Explain what conditional statements are and their usage.  
+-> Explain the differences between if statements and switch statements.  
+-> Write code that makes a decision based on the input from the console.  
+-> Explain the break keyword in the context of switch statements.  
+-> When given code that contains conditional statements,
+  being able to determine if I should use if or switch.  
+
