@@ -1,0 +1,18 @@
+Loops:
+
+Learning objectives:
+- Recall the different types of loops.  
+- Explain what loops are and how they work.  
+- Explain the differences between do-while loops, while loops and for loops.  
+- Write code that logs all numbers from 1 to 1000.  
+- Write code that keeps reading input data until an empty string is passed.  
+- Explain what loop iterations are and how to skip some of them.  
+- Explain the break keyword in the context of loops.  
+- When given code that contains loops, determine if you should use a for, while or do-while loop.  
+
+
+
+- What are loops, types of loops - entry controlled and exit controlled  
+- While loop, break statement, step-by-step explanation  
+- For loop, for loop components - initializer, condition, iterator  
+- Continue operator  
