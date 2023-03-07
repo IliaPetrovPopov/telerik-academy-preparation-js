@@ -1,0 +1,13 @@
+
+# Learning objectives:
+-> Understand what arrays are and why I should use them.  
+-> Understand what array indices are.  
+-> Writing code that uses an array to store data.  
+-> Writing code that iterates over an array using a loop.  
+-> Writing code that determines the length of an array and logs it.
+-> Overview of arrays, indices.  
+-> Declaring an array, initializing an array.  
+-> Array properties, indexing, index out of range, changing value at index.  
+-> Iterating an array with for loop, iterating backwards, iterating with foreach.  
+-> Filling and printing arrays.  
+
