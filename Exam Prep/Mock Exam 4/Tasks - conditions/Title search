@@ -1,0 +1,67 @@
+You will receive a string title which contains only small latin letters [a-z]. After that you will have to read from the input N lines of text. For each of these lines, your task is to find out if there is such a sequence in the string you receive as input on the first line (title). The sequence may not be on consecutive indices. Each time you find a sequence of these characters you remove it from the initial string and print the modified string. If no such sequence is found you have to print No such title found! and not modify the string.
+
+Examples:
+telerik is found in telerikacademy and the remaining string is academy
+telerik is also found in tpeplpeprik and the remaining string is pppp
+
+Input
+Read from the standard input
+On the first line you receive a string containing small latin letters [a-z]
+On the next line you receive an integer N which represents the number of lines which you will have to read
+On each of the next N lines you receive a string
+
+Output
+Print on the standard output
+On every N line, print the result of the operation
+Examine the sample tests for explanation
+
+Constraints
+3 <= N <= 10
+200 <= title.length() <= 5000
+
+Sample tests:
+
+Input:
+peshoishere
+3
+eho
+piere
+telerik
+
+Output:
+psishere
+ssh
+No such title found!
+
+Explanation:
+The title is peshoishere
+You receive 3 as an integer
+search eho in peshoishere => peshoishere
+Print: psishere (modified title)
+search piere in psishere => psishere
+Print: ssh (modified title)
+search telerik in ssh => Not found
+Print: No such title found!
+
+Input:
+taeclaedreimky
+2
+telerik
+academy
+
+Output:
+academy
+
+
+Explanation:
+On the second line is printed empty string because the title is empty
+
+Input:
+cfoadset
+2
+code
+slow
+
+Output:
+fast
+No such title found!
