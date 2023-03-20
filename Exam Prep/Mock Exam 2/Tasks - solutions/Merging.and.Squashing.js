@@ -8,24 +8,22 @@ let gets =
       arr[index++]
   )(input, 0);
 
-let total = +gets();
-let str = '', mergeString = "", squashString = "", sum = 0;
+let n = +gets();
 
-for (let i = 0; i < total; i++) {
-    str += gets() + " ";
-}
+let first = gets().split("").map(Number);
+let merge = '', squash = '';
 
-let arr = str.split(" ");
-arr.pop();
+for (let i = 0; i < n - 1; i++) {
+  let second = gets().split("").map(Number);
 
-for(let i=0; i < arr.length - 1; i++) {
-let first = arr[i][1], second = arr[i+1][0], n1 = arr[i][0], n2 = arr[i+1][1];
-sum = Number(first) + Number(second);
-  if(sum > 9) {
-    sum %= 10;
+  if (first[1] + second[0] > 9) {
+    squash += first[0] + "" + ((first[1] + second[0]) % 10) + "" + second[1] + " ";
+  } else {
+    squash += first[0] + "" + (first[1] + second[0]) + "" + second[1] + " ";
   }
-  squashString += n1 + sum + n2 + " ";
-  mergeString += first + second + " ";
+  merge += first[1] + "" + second[0] + " ";
+  first = second;
 }
-print(mergeString);
-print(squashString);
+
+print(merge);
+print(squash); 
